@@ -3,7 +3,7 @@ let line_num_statment = "cmd";
 let result_num_statment = "result";
 
 let json = require('test.json');
-alert(json, 'the json obj');
+alert(json);
 
 var file = "";
 let type = "";
