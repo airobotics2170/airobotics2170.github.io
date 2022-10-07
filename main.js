@@ -2,6 +2,9 @@ let line_num = 0;
 let line_num_statment = "cmd";
 let result_num_statment = "result";
 
+let json = require('test.json');
+alert(json, 'the json obj');
+
 var file = "";
 let type = "";
 var files = [];
