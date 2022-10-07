@@ -1,0 +1,94 @@
+body {
+    background-color: #211D1B;
+    color: #519974;
+    font-family: font_use;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: font_use;
+    src: url(font_use.ttf);
+}
+
+input {
+    background-color: #211D1B;
+    border: 0px none;
+    outline: none;
+    color: #519974;
+    font-family: font_use;
+    font-size: medium;
+}
+
+*:disabled {
+    color: azure;
+}
+
+#cloud {
+    color: #ADD8E6;
+}
+
+p {
+    display: block;
+    color: #519974;
+}
+
+p:empty {
+    display: none;
+}
+
+.ignore {
+    display: none;
+}
+
+::selection {
+    background: #519974;
+    color:#211D1B;
+  }
+
+#caret-block {
+    background-color: hsla(1, 1%, 100%, 1);
+    color: #000;
+}
+
+#cmd {
+    display: inline;
+}
+
+#login_overlay {
+    height: 100%;
+    width: 100%;
+}
+
+#username {
+    color: azure;
+}
+
+#username:focus {
+    border-bottom: 1px solid #289c9c;
+}
+
+#password:focus {
+    border-bottom: 1px solid #289c9c;
+}
+
+#password {
+    color: azure;
+}
+
+#password_error {
+    color: #ff5349;
+}
+
+#visibility_text {
+    display: inline;
+}
+
+a {
+    background-color: #a76851;
+    color: #ADD8E6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #519974;
+}
